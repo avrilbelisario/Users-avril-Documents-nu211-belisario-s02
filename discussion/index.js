@@ -1,29 +1,25 @@
+let fullName = "Steve Rogers";
+console.log("My full name is " + fullName);
 
-	let fullName = "Avril Jhoanna Ashanti J. Belisario";
-	console.log("My full name is" + name);
+let age = 40;
+console.log("My current age is: " + age);
 
-	let age = 20;
-	console.log("My current age is: " + currentAge);
-	
-	let friends = ["Jhanna","Luis","Oteph","Gely","Trisha"];
-	console.log("My Friends are: ")
-	console.log(friends);
+let friends = ["Tony", "Bruce", "Thor", "Natasha", "Clint", "Nick"];
+console.log("My Friends are: ");
+console.log(friends);
 
-	let profile = {
+let profile = {
+  username: "captainamerica",
+  fullName: "Steve Rogers",
+  age: 40,
+  isActive: false
+};
 
-		username "avrilbelisario"
-		fullName: "Avril Belisario';
-		age: 20,
-		isActive: false,
+console.log("My Full Profile: ");
+console.log(profile);
 
-	}
-	console.log("My Full Profile: ")
-	console.log(profile);
+fullName = "Bucky Barnes"; // Updating the existing variable
+console.log("My best friend is: " + fullName);
 
-	let fullName = "Zelle Santos";
-	console.log("My bestfriend is: " + fullName);
-
-	const lastLocation = "SM Dasma";
-	lastLocation = "SM Dasma";
-	console.log("I was found frozen in: " + lastLocation);
-}
+const lastLocation = "Arctic Ocean";
+console.log("I was found frozen in: " + lastLocation);
